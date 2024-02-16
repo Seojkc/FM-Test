@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('./MediaFiles/backgroundLogin.jpg');
+  
+  height: 100%;
+  width: 100% !important;
+
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 0px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 30px auto;
+  width: 100%;
+}
+
+table td,
+table th {
+  border: 1px solid #9e9e9e;
+  padding: 10px;
+  
+}
+
+table tr:nth-child(even) {
+  background-color: #f6f6f6;
+}
+table tr {
+  background-color: #e4a9a9;
+  padding: 10px !important;
+}
+
+table th {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: left;
+  background-color: cadetblue;
+  color: white;
+}
+
+table button {
+  display: block;
+  padding: 5px 10px;
+  width: 70%;
+  background-color: cadetblue;
+  border: 0px;
+  border-radius: 10px;
+  color: #f6f6f6;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-list {
+  display: none;
+  position: absolute;
+  background-color: #f6f6f6;
+  min-width: 150px;
+  padding: 10px 15px;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.dropdown:hover .dropdown-list {
+  display: block;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+ul li {
+  margin-left: 30px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+ul li:hover {
+  scale: 1.1;
+}
+
+.input {
+  width: 80%;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 10px;
+  border-color: cadetBlue;
+  border-style: solid;
+}
+
+.input-label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-button {
+  margin-top: 30px;
+  width: 90%;
+  padding: 5px 10px;
+  color: #f6f6f6;
+  background-color: cadetBlue;
+  border-radius: 10px;
+  border-width: 0;
+  font-size: 16px;
+  height: 30px;
+  display: block;
+}
+
+.error {
+  background-color: #ffb7b0;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.form-error {
+  width: 90%;
+  margin-left: 20px;
+}
+
+.form {
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 150px;
+}
+
+.error-text {
+  color: #c94234;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.message {
+  background-color: #abdcde;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.form-message {
+  width: 90%;
+}
+
+.message-text {
+  color: cadetBlue;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+}
