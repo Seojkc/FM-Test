@@ -1,4 +1,4 @@
-**REACT | PYTHON FLASK | MYSQL**
+**REACT JS | PYTHON FLASK | MYSQL**
 
 Login Page Preview
 ![Capture](https://github.com/Seojkc/FM-Test/assets/93193151/7fdbc3c0-805f-4921-a91e-ee122e536814)
